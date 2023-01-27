@@ -1,0 +1,160 @@
+.community-container {
+  width: 100%;
+  height: calc(100vh - 97px);
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+    url('https://img.freepik.com/free-vector/night-composition-with-burning-campfire-illustration_1284-55964.jpg?w=1380&t=st=1674835261~exp=1674835861~hmac=b84651a2363687963267e61e619742f18d38bc4e85b4aaac4123ee8a10f2e76f');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  //tranparent card
+  .chat-container {
+    width: 430px;
+    height: 600px;
+    background-color: rgba(220, 220, 220, 0.312);
+    border-radius: 30px;
+    margin: 2rem;
+ display: grid;
+ grid-template-rows: 1fr 8fr 1fr;
+  padding: 2%;
+.profile-box{
+    display: flex;
+    gap: 8px;
+    height: 50px;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    .profile-image-chat {
+      width: 40px;
+      height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+}
+.chat-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+    gap:10px;
+    .right{
+        align-self: flex-end;
+        background-color: #32fe0a;
+        border-radius: 20px;
+        padding: 5px 10px;
+        max-width: 200px;
+   word-wrap: break-word;
+      
+    }
+    .left{
+        align-self: flex-start;
+         background-color: #32fe0a;
+        border-radius: 20px;
+        padding: 5px 10px;
+        max-width: 200px;
+        word-wrap: break-word;
+
+
+    }
+}
+.chat-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    input{
+        width: 85%;
+        height: 40px;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        padding: 0 10px;
+    }
+    .chat-send-btn{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        color: white;
+    }
+}
+  }
+
+  .player-card{
+    width: 300px;
+    height: 280px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+        background-color: rgba(220, 220, 220, 0.312);
+        .player-image{
+            width: 200px;
+            height: 108px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .music-name{
+            font-size: 1.5rem;
+            font-weight: 400;
+            font-family: 'Kanit', sans-serif !important ;
+            color: #ffffff;
+        }
+        .player-icon{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            color: white;
+        }
+           .player-icon-sub{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            color: white;
+        }
+  }
+}
+
+
+     .community-trip {
+      height: 240px;
+      width: 23%;
+      cursor: pointer;
+
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+      background-color: #f3f3f3;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+
+      .image-community-trip {
+        height: 200px;
+      }
+      .detail {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        line-height: 10px;
+
+        .title {
+          font-size: 1.2rem;
+          font-weight: 400;
+          font-family: 'Kanit', sans-serif !important ;
+        }
+      }
+    }
+    .card-trip:hover {
+      transform: scale(1.07);
+      transition: all 0.3s ease-in-out;
+      filter: brightness(1.3);
+    }
