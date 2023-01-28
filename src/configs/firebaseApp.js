@@ -4,13 +4,13 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAaJ_QtD_1l5GOJ7TbazS-IRtx1kTNSDUE",
-  authDomain: "camphin-f58cf.firebaseapp.com",
-  projectId: "camphin-f58cf",
-  storageBucket: "camphin-f58cf.appspot.com",
-  messagingSenderId: "629646915131",
-  appId: "1:629646915131:web:0e5fe60a0082b14d3f4e1e"
-};
+  apiKey: 'AIzaSyDjpEaU5lZi3J72zsLDPBKQTn9Hg1Lx4XM',
+  authDomain: 'camphin-ffc56.firebaseapp.com',
+  projectId: 'camphin-ffc56',
+  storageBucket: 'camphin-ffc56.appspot.com',
+  messagingSenderId: '430054851963',
+  appId: '1:430054851963:web:3466408e174cff225de9de',
+}
 
 // Initialize Firebase
 const firebaseApp = initializeApp(firebaseConfig);
