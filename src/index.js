@@ -36,81 +36,81 @@ const router = createBrowserRouter([
   {
     path: '/create-trip',
     element: (
-      <LayoutWithGuard>
+      // <LayoutWithGuard>
         <WithNavabar>
           <CreateTrip />
         </WithNavabar>
-      </LayoutWithGuard>
+      // </LayoutWithGuard>
     ),
   },
   {
     path: '/view-trip',
     element: (
-      <LayoutWithGuard>
+      // <LayoutWithGuard>
         <WithNavabar>
           <TripDetail />
         </WithNavabar>
-      </LayoutWithGuard>
+      // </LayoutWithGuard>
     ),
   },
   {
     path: '/about',
     element: (
-      <LayoutWithGuard>
+      // <LayoutWithGuard>
         <WithNavabar>
           <About />
         </WithNavabar>
-      </LayoutWithGuard>
+      // </LayoutWithGuard>
     ),
   },
   {
     path: '/profile',
     element: (
-      <LayoutWithGuard>
+      // <LayoutWithGuard>
         <WithNavabar>
           <Profile />
         </WithNavabar>
-      </LayoutWithGuard>
+      // </LayoutWithGuard>
     ),
   },
   {
     path: '/shop',
     element: (
-      <LayoutWithGuard>
+      // <LayoutWithGuard>
         <WithNavabar>
           <Shop />
         </WithNavabar>
-      </LayoutWithGuard>
+      // </LayoutWithGuard>
     ),
   },
   {
     path: '/favorite',
     element: (
-      <LayoutWithGuard>
+      // <LayoutWithGuard>
         <WithNavabar>
           <Favorite />
         </WithNavabar>
-      </LayoutWithGuard>
+      // </LayoutWithGuard>
     ),
   },
   {
     path: '/community',
     element: (
-      <LayoutWithGuard>
+      // <LayoutWithGuard>
         <WithNavabar>
           <Community />
         </WithNavabar>
-      </LayoutWithGuard>
+      // </LayoutWithGuard>
     ),
   },
   {
     path: '/community-all',
     element: (
-      <LayoutWithGuard>
+      // <LayoutWithGuard>
         <WithNavabar>
           <CommunityAllRoom />
         </WithNavabar>
-      </LayoutWithGuard>
+      // </LayoutWithGuard>
     ),
   },
   {
